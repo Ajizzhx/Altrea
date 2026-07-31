@@ -56,6 +56,9 @@ async function renderPage(pageKey, renderFn, param = null) {
   };
   document.title = titles[pageKey] || 'Altrea';
 
+  // Cleanup any floating reader controls from body when switching pages
+  document.getElementById('reader-controls')?.remove();
+
   // Render
   const navHTML = renderNavbar(pageKey, param);
   const pageHTML = await renderFn();

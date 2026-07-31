@@ -1,6 +1,12 @@
 import { toggleBookmark, setPrefs, getPrefs } from '../utils/storage.js';
 
 export function initReader() {
+  // Move #reader-controls to document.body so position:fixed is relative to window, not animated container
+  const controls = document.getElementById('reader-controls');
+  if (controls && controls.parentElement !== document.body) {
+    document.body.appendChild(controls);
+  }
+
   initReadingProgress();
   initReaderControls();
   initScrollToTop();
