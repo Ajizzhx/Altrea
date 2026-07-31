@@ -104,32 +104,52 @@ export async function renderReader(chapterId) {
     </nav>
   </footer>
 
-  <!-- Floating controls -->
-  <div class="reader-controls" id="reader-controls" role="toolbar" aria-label="Kontrol membaca">
-    <button class="reader-ctrl-btn" id="ctrl-bookmark" aria-label="${bookmarked ? 'Hapus tandai' : 'Tandai jilid ini'}" aria-pressed="${bookmarked}" title="${bookmarked ? 'Hapus tandai' : 'Tandai'}">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="${bookmarked ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-        <path d="M3 2h10v13l-5-3-5 3V2z"/>
-      </svg>
-    </button>
+  <!-- Floating Dropdown Controls -->
+  <div class="reader-fab-container" id="reader-controls" role="region" aria-label="Kontrol membaca">
+    <div class="reader-dropdown" id="reader-dropdown" hidden>
+      <div class="reader-dropdown__header">
+        <span class="reader-dropdown__title">Pengaturan Tampilan</span>
+        <button class="reader-ctrl-btn ${bookmarked ? 'is-active' : ''}" id="ctrl-bookmark" aria-label="${bookmarked ? 'Hapus tandai' : 'Tandai jilid ini'}" aria-pressed="${bookmarked}" title="${bookmarked ? 'Hapus tandai' : 'Tandai'}">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="${bookmarked ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M3 2h10v13l-5-3-5 3V2z"/>
+          </svg>
+          <span class="reader-ctrl-label">${bookmarked ? 'Tandai (Selesai)' : 'Tandai Jilid'}</span>
+        </button>
+      </div>
 
-    <div class="reader-ctrl-group" role="group" aria-label="Ukuran teks">
-      <button class="reader-ctrl-btn reader-ctrl-font ${prefs.fontSize === 'sm' ? 'is-active' : ''}" data-font="sm" aria-label="Teks kecil" aria-pressed="${prefs.fontSize==='sm'}">A</button>
-      <button class="reader-ctrl-btn reader-ctrl-font ${prefs.fontSize === 'md' ? 'is-active' : ''}" data-font="md" aria-label="Teks sedang" aria-pressed="${prefs.fontSize==='md'}">A</button>
-      <button class="reader-ctrl-btn reader-ctrl-font ${prefs.fontSize === 'lg' ? 'is-active' : ''}" data-font="lg" aria-label="Teks besar" aria-pressed="${prefs.fontSize==='lg'}">A</button>
-      <button class="reader-ctrl-btn reader-ctrl-font ${prefs.fontSize === 'xl' ? 'is-active' : ''}" data-font="xl" aria-label="Teks sangat besar" aria-pressed="${prefs.fontSize==='xl'}">A</button>
+      <div class="reader-dropdown__section">
+        <span class="reader-dropdown__label">Ukuran Teks</span>
+        <div class="reader-ctrl-group" role="group" aria-label="Ukuran teks">
+          <button class="reader-ctrl-btn reader-ctrl-font ${prefs.fontSize === 'sm' ? 'is-active' : ''}" data-font="sm" aria-label="Teks kecil" aria-pressed="${prefs.fontSize==='sm'}">A-</button>
+          <button class="reader-ctrl-btn reader-ctrl-font ${prefs.fontSize === 'md' ? 'is-active' : ''}" data-font="md" aria-label="Teks sedang" aria-pressed="${prefs.fontSize==='md'}">A</button>
+          <button class="reader-ctrl-btn reader-ctrl-font ${prefs.fontSize === 'lg' ? 'is-active' : ''}" data-font="lg" aria-label="Teks besar" aria-pressed="${prefs.fontSize==='lg'}">A+</button>
+          <button class="reader-ctrl-btn reader-ctrl-font ${prefs.fontSize === 'xl' ? 'is-active' : ''}" data-font="xl" aria-label="Teks sangat besar" aria-pressed="${prefs.fontSize==='xl'}">A++</button>
+        </div>
+      </div>
+
+      <div class="reader-dropdown__section">
+        <span class="reader-dropdown__label">Tema Tampilan</span>
+        <div class="reader-ctrl-modes" role="group" aria-label="Mode membaca">
+          <button class="reader-ctrl-btn reader-ctrl-mode ${prefs.readingMode === 'dark' ? 'is-active' : ''}" data-mode="dark" aria-label="Mode gelap" aria-pressed="${prefs.readingMode==='dark'}">◐ Gelap</button>
+          <button class="reader-ctrl-btn reader-ctrl-mode ${prefs.readingMode === 'void' ? 'is-active' : ''}" data-mode="void" aria-label="Mode void" aria-pressed="${prefs.readingMode==='void'}">● Void</button>
+          <button class="reader-ctrl-btn reader-ctrl-mode ${prefs.readingMode === 'purple' ? 'is-active' : ''}" data-mode="purple" aria-label="Mode ungu" aria-pressed="${prefs.readingMode==='purple'}">◈ Ungu</button>
+          <button class="reader-ctrl-btn reader-ctrl-mode ${prefs.readingMode === 'sepia' ? 'is-active' : ''}" data-mode="sepia" aria-label="Mode sepia" aria-pressed="${prefs.readingMode==='sepia'}">○ Sepia</button>
+        </div>
+      </div>
+
+      <div class="reader-dropdown__footer">
+        <button class="reader-ctrl-btn reader-ctrl-btn--full" id="ctrl-top" aria-label="Kembali ke atas">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M8 12V4M4 8l4-4 4 4"/>
+          </svg>
+          Ke Atas
+        </button>
+      </div>
     </div>
 
-    <div class="reader-ctrl-group" role="group" aria-label="Mode membaca">
-      <button class="reader-ctrl-btn reader-ctrl-mode ${prefs.readingMode === 'dark' ? 'is-active' : ''}" data-mode="dark" aria-label="Mode gelap" aria-pressed="${prefs.readingMode==='dark'}" title="Mode Gelap">◐</button>
-      <button class="reader-ctrl-btn reader-ctrl-mode ${prefs.readingMode === 'void' ? 'is-active' : ''}" data-mode="void" aria-label="Mode void" aria-pressed="${prefs.readingMode==='void'}" title="Mode Void">●</button>
-      <button class="reader-ctrl-btn reader-ctrl-mode ${prefs.readingMode === 'purple' ? 'is-active' : ''}" data-mode="purple" aria-label="Mode ungu" aria-pressed="${prefs.readingMode==='purple'}" title="Mode Ungu">◈</button>
-      <button class="reader-ctrl-btn reader-ctrl-mode ${prefs.readingMode === 'sepia' ? 'is-active' : ''}" data-mode="sepia" aria-label="Mode sepia" aria-pressed="${prefs.readingMode==='sepia'}" title="Mode Sepia">○</button>
-    </div>
-
-    <button class="reader-ctrl-btn" id="ctrl-top" aria-label="Kembali ke atas" title="Ke atas">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-        <path d="M8 12V4M4 8l4-4 4 4"/>
-      </svg>
+    <!-- Trigger FAB Button -->
+    <button class="reader-fab-trigger" id="reader-fab-trigger" aria-label="Buka Pengaturan Tampilan" aria-expanded="false" title="Pengaturan Tampilan & Membaca">
+      <span class="reader-fab-text">Aa</span>
     </button>
   </div>
 </div>
