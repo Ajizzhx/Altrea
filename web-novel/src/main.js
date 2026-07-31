@@ -74,7 +74,12 @@ async function renderPage(pageKey, renderFn, param = null) {
 
   // Init behaviors
   initNavbar();
-  initRevealObserver();
+  // Delay observer to next frame so DOM layout is complete
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      initRevealObserver();
+    });
+  });
   initPageBehaviors(pageKey);
 }
 

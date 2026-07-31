@@ -185,11 +185,15 @@ export function renderLanding() {
     <div class="arc-grid">
       ${arcsData.arcs.map((arc, i) => `
       <a href="#/chapters" class="arc-card reveal reveal-delay-${(i%3)+1}" style="--arc-color:${arc.color}" aria-label="${arc.title}: ${arc.altreaTitle}">
-        <div class="arc-card__number">Arc ${arc.id}</div>
-        <h3 class="arc-card__title">${arc.title}</h3>
-        <p class="arc-card__altrea">${arc.altreaTitle}</p>
-        <p class="arc-card__meaning"><em>${arc.altreaMeaning}</em></p>
-        <p class="arc-card__range">Jilid ${arc.chapters[0]}–${arc.chapters[arc.chapters.length-1]}</p>
+        <div class="arc-card__bg" style="background-image:url('/images/arc-${arc.id}.jpg')" aria-hidden="true"></div>
+        <div class="arc-card__overlay" aria-hidden="true"></div>
+        <div class="arc-card__content">
+          <div class="arc-card__number">Arc ${arc.id}</div>
+          <h3 class="arc-card__title">${arc.title}</h3>
+          <p class="arc-card__altrea">${arc.altreaTitle}</p>
+          <p class="arc-card__meaning"><em>${arc.altreaMeaning}</em></p>
+          <p class="arc-card__range">Jilid ${arc.chapters[0]}–${arc.chapters[arc.chapters.length-1]}</p>
+        </div>
         <div class="arc-card__bar"></div>
       </a>
       `).join('')}
