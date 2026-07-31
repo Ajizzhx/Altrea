@@ -260,8 +260,11 @@
 /* Responsive */
 @media (max-width: 900px) {
   .navbar__links { display: none; }
-  .navbar__reading-info { display: none; }
   .navbar__resume { display: none; }
   .navbar__hamburger { display: flex; }
   .navbar__inner { padding: 0 var(--space-4); }
+}
+
+@media (max-width: 640px) {
+  .navbar__reading-info { display: none; }
 }

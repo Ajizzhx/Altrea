@@ -81,25 +81,23 @@ function initReaderControls() {
       setPrefs({ readingMode: mode });
     });
   });
-  // FAB Dropdown toggle
-  const trigger = document.getElementById('reader-fab-trigger');
-  const dropdown = document.getElementById('reader-dropdown');
 
-  trigger?.addEventListener('click', (e) => {
+  // Mobile dropdown panel toggle
+  const toggleBtn = document.getElementById('ctrl-toggle');
+  const panel = document.getElementById('controls-panel');
+
+  toggleBtn?.addEventListener('click', (e) => {
     e.stopPropagation();
-    const isOpen = dropdown?.hidden === false;
-    if (dropdown) dropdown.hidden = isOpen;
-    trigger.setAttribute('aria-expanded', String(!isOpen));
-    trigger.classList.toggle('is-open', !isOpen);
+    const isOpen = toggleBtn.getAttribute('aria-expanded') === 'true';
+    toggleBtn.setAttribute('aria-expanded', String(!isOpen));
+    panel?.classList.toggle('is-open', !isOpen);
   });
 
-  // Close dropdown on click outside
+  // Close panel on click outside (mobile)
   document.addEventListener('click', (e) => {
-    const container = document.getElementById('reader-controls');
-    if (container && !container.contains(e.target) && dropdown && !dropdown.hidden) {
-      dropdown.hidden = true;
-      trigger?.setAttribute('aria-expanded', 'false');
-      trigger?.classList.remove('is-open');
+    if (panel?.classList.contains('is-open') && !e.target.closest('#reader-controls')) {
+      toggleBtn?.setAttribute('aria-expanded', 'false');
+      panel?.classList.remove('is-open');
     }
   });
 }
