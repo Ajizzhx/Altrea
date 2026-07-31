@@ -202,11 +202,12 @@ button {
   font-size: var(--text-sm);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: var(--space-3) var(--space-8);
+  padding: var(--space-3) var(--space-6);
   border-radius: var(--radius-sm);
   transition: all var(--transition-normal);
   position: relative;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 .btn::before {
