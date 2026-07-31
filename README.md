@@ -1,56 +1,196 @@
-# 📖 Altrea — Kitab Penciptaan (Web Novel)
+<div align="center">
 
-Web novel interaktif berbasis browser untuk novel kosmologi fantasy ***Altrea — Kitab Penciptaan*** karya **ALSTRINE**.
+  <img src="web-novel/public/og-image.jpg" alt="Altrea — Kitab Penciptaan Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;">
 
-Live Preview: [http://localhost:5173/](http://localhost:5173/)
+  # 🌌 ALTREA — Kitab Penciptaan
+  ### *Sebuah Web Novel Kosmologi Fantasy Interaktif*
 
-## 🎨 Fitur Utama
+  [![Author](https://img.shields.io/badge/Author-ALSTRINE-c9a84c?style=for-the-badge&logo=github)](https://github.com/Ajizzhx)
+  [![Framework](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+  [![Language](https://img.shields.io/badge/JavaScript-Vanilla%20ES2022-F7DF1E?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  [![Styling](https://img.shields.io/badge/CSS3-Design%20Tokens-1572B6?style=for-the-badge&logo=css3)](https://css-tricks.com/)
+  [![Status](https://img.shields.io/badge/Status-Complete%20(32%20Jilid)-00c853?style=for-the-badge)](#)
 
-- 🏛️ **Atmosfer Dark Celestial**: Tema katedral gelap, stained glass animation, particle system, dan ornamen geometrik emas (Gothic arch & Islamic mandala).
-- 📜 **32 Jilid Lengkap**: Teks utuh seluruh 32 jilid dengan tipografi premium (*Cinzel Decorative*, *Cinzel*, *Cormorant Garamond*).
-- 🔖 **Fitur Membaca Advanced**:
-  - Reading Progress Bar di top bar
-  - Drop Cap & Pull Quotes otomatis
-  - 4 Ukuran Font (S / M / L / XL)
-  - 4 Mode Membaca (*Dark*, *Void*, *Purple*, *Sepia*)
-  - Bookmark & Progress tracker berbasis `localStorage`
-- 📚 **Daftar Jilid & Filter Arc**: Filter interaktif 6 Arc cerita dengan status *Selesai / Terakhir Dibaca / Ditandai*.
-- 📖 **Glossarium Dunia**: Pencarian *realtime* nama ras, karakter, lokasi, konsep, dan bahasa Altrea beserta rujukan jilid.
+  <p align="center">
+    <i>"Pada mulanya, Altrea bukan kegelapan. Kegelapan setidaknya memiliki kehadiran.<br>
+    Altrea pada awalnya adalah ketiadaan yang sempurna — keheningan di antara dua nada yang belum pernah lahir."</i>
+  </p>
 
-## 🛠️ Stack Teknologi
+  [🌐 Live Demo](http://localhost:5173/) • [📚 Daftar Jilid](#-struktur-6-arc-cerita) • [📖 Glossarium Dunia](#-kosmologi--dunia-altrea) • [🚀 Jalankan Lokal](#-panduan-pengembangan)
 
-- **Core**: Vite 5 + Vanilla JavaScript (ES2022+)
-- **Styling**: CSS Custom Properties (Design Tokens) + CSS Modules
-- **Parser**: Marked.js + Custom Altrea Typography Parser
-- **Deployment**: Vercel & GitHub Pages ready
-
-## 🚀 Panduan Jalankan & Deploy
-
-### Jalankan Lokal
-```bash
-cd web-novel
-npm install
-npm run dev
-```
-
-### Deploy ke Vercel (Rekomendasi)
-```bash
-# Opsi 1: Pakai Vercel CLI
-npx vercel
-
-# Opsi 2: Connect via dashboard Vercel
-# Import repository GitHub ini ke Vercel, pilih Root Directory: web-novel
-```
-
-### Deploy ke GitHub Pages
-```bash
-# Cukup git push ke branch main / master:
-git add .
-git commit -m "feat: initial commit Altrea Web Novel by ALSTRINE"
-git push origin main
-```
-Workflow GitHub Actions akan otomatis melakukan build dan mempublikasikan web novel kamu ke GitHub Pages!
+</div>
 
 ---
 
-*Altrea: Kitab Penciptaan © 2026 ALSTRINE*
+## 🌟 Tentang Altrea
+
+**Altrea — Kitab Penciptaan** adalah karya web novel kosmologi fantasy epik ciptaan **ALSTRINE**. Web novel ini menghadirkan pengalaman membaca novel digital kelas atas berbasis web (*Progressive Web Novel App*) dengan visual **Dark Celestial Aesthetic**, animasi pendaran cahaya *stained glass*, sistem ornamen geometrik emas (*Gothic Arch & Islamic Mandala*), serta fitur baca interaktif yang responsif di desktop maupun perangkat seluler.
+
+ Seluruh **32 Jilid cerita** dapat dibaca secara utuh dengan berbagai pilihan preferensi mode tampilan dan ukuran font.
+
+---
+
+## ✨ Fitur-Fitur Utama
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🏛️ Visual & Estetika Celestial</h3>
+      <ul>
+        <li><b>Dark Cathedral Theme</b>: Warna deep abyss <code>#1e202c</code>, pendaran emas <code>#c9a84c</code>, dan ungu <code>#60519b</code>.</li>
+        <li><b>Particle & Light Rays System</b>: Debu bintang mengambang, <i>shooting stars</i>, dan pantulan berkas cahaya stained glass.</li>
+        <li><b>Ornamen SVG Presisi</b>: Frame Gothic Arch, Lancip Frame, Mandala berputar, dan Corner Ornaments buatan sendiri tanpa library eksternal.</li>
+        <li><b>Concept Art 2D</b>: Ilustrasi AI 2D Concept Art untuk latar Hero, Dunia, dan 6 Arc cerita.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>📖 Mode Membaca Interaktif</h3>
+      <ul>
+        <li><b>4 Mode Membaca</b>: <i>Dark</i> (Gelap), <i>Void</i> (Hitam Pekat), <i>Purple</i> (Ungu Kosmik), dan <i>Sepia</i> (Klasik).</li>
+        <li><b>4 Ukuran Font</b>: Kontrol instan ukuran teks (S, M, L, XL).</li>
+        <li><b>Progress Tracker & Bookmark</b>: Menyimpan status pembacaan dan penanda halaman otomatis di <code>localStorage</code>.</li>
+        <li><b>Floating Controls & Mobile FAB</b>: Toolbar mengambang di desktop, dan Floating Action Button (FAB) + Glassmorphism Dropdown Sheet di HP.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>📚 Management 32 Jilid</h3>
+      <ul>
+        <li><b>Katalog Jilid Lengkap</b>: Grid 32 Jilid dengan indikator waktu baca, excerpt, dan badge status <i>Selesai / Ditandai</i>.</li>
+        <li><b>Sticky Filter Arc</b>: Filter interaktif untuk melihat jilid berdasarkan 6 Arc cerita.</li>
+        <li><b>Global Progress Bar</b>: Indikator persentase penyelesaian pembacaan novel.</li>
+        <li><b>Navigasi Mulus</b>: Tombol Prev/Next jilid dengan scroll otomatis ke atas.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>📖 Glossarium Dunia Realtime</h3>
+      <ul>
+        <li><b>Instant Search</b>: Pencarian <i>realtime</i> nama ras, lokasi, karakter, konsep, dan bahasa Altrea.</li>
+        <li><b>Kategori Interaktif</b>: Filter kategori <i>Ras, Lokasi, Konsep, Karakter, Empat Napas, dan Bahasa</i>.</li>
+        <li><b>Tag Relasi Entri</b>: Klik tag relasi untuk melakukan pencarian instan antar entri.</li>
+        <li><b>Rujukan Jilid</b>: Tautan langsung ke jilid terkait dari setiap entri glossarium.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📜 Struktur 6 Arc Cerita
+
+| Arc | Judul Utama | Judul Bahasa Altrea | Makna Altrea | Cakupan |
+| :---: | :--- | :--- | :--- | :---: |
+| **Arc I** | Resonansi Pertama | *Aeval-Aevorn* | Kelahiran Dunia | **Jilid 1 – 5** |
+| **Arc II** | Kebangkitan | *Aevorn-Orn* | Tiga Ras Purba | **Jilid 6 – 10** |
+| **Arc III** | Peradaban Pertama | *Vaerundal-Vraedh* | Kota Pertama | **Jilid 11 – 17** |
+| **Arc IV** | Yang Tidur | *Sol-Vaelen* | Penguburan Rasa | **Jilid 18 – 22** |
+| **Arc V** | Perang Nama | *Nael-Thassor* | Konflik Bahasa | **Jilid 23 – 28** |
+| **Arc VI** | Yang Turun dari Langit | *Aeth-Vaelis* | Akhir & Awal | **Jilid 29 – 32** |
+
+---
+
+## 🌌 Kosmologi & Dunia Altrea
+
+<details>
+<summary><b>🔹 Enam Ras Altrea (Klik untuk membuka)</b></summary>
+
+1. **Auren** (*Auren*) — Bangkit dari bekas telapak tangan Duraen. Perawakan teguh, berotot padat, kulit tanah liat kemerahan, dan mata dua warna. Mewariskan kebijaksanaan melalui tulang.
+2. **Sylvaren** (*Sylvaren*) — Lahir dari celah di antara empat napas dan mimpi pertama. Memiliki mata cermin yang memantulkan kebenaran jiwa dan menguasai *Resonansi Celah*.
+3. **Vraen** (*Vraen*) — Lahir dari ledakan cahaya oranye Ignar. Bertubuh nyala membara, kreatif secara obsesif, dan tidak bisa berdiam diri.
+4. **Vauren** (*Vauren*) — Ras campuran Auren dan Sylvaren yang mendiami pesisir dan dataran rendah.
+5. **Thael** (*Thael*) — Penjaga pesisir Samudra Thessarne yang bertindak sebagai penghubung arus laut dan daratan.
+6. **Naevh** (*Naevh*) — Ras bercahaya perak yang turun dari langit malam pada era akhir.
+</details>
+
+<details>
+<summary><b>🔹 Empat Napas Dunia (Klik untuk membuka)</b></summary>
+
+- 🔥 **Ignar** — Napas yang panas, yang mendorong, yang membakar. Keinginan untuk ada.
+- 💧 **Vael** — Napas yang dingin, yang menarik, yang menyimpan. Memori dan rindu yang tak bertepi.
+- 🍃 **Solmae** — Napas yang luas, yang berputar. Kebebasan sejati dan rahasia takdir.
+- ⛰️ **Duraen** — Napas yang berat, yang diam, yang menopang. Kesabaran abadi dan fondasi segalanya.
+</details>
+
+---
+
+## 🛠️ Stack Teknologi & Arsitektur
+
+```bash
+Altrea/
+├── novel/
+│   └── Altrea - Kitab Penciptaan.md     # Source text utuh 32 jilid novel
+├── web-novel/
+│   ├── public/                           # Asset statis, favicon & concept art
+│   │   ├── hero-bg.jpg
+│   │   ├── world-bg.jpg
+│   │   ├── og-image.jpg
+│   │   └── images/                       # Ilustrasi Arc I–VI
+│   ├── src/
+│   │   ├── components/                   # Component modular (Navbar, Footer, SVG Ornaments)
+│   │   ├── content/                      # chapters-full.json (Teks utuh 32 jilid)
+│   │   ├── data/                         # arcs.json, chapters.json, glossary.json
+│   │   ├── pages/                        # Landing, Chapters, Reader, Glossary
+│   │   ├── styles/                       # CSS Tokens & Module Stylesheets
+│   │   └── utils/                        # LocalStorage Manager & Custom Markdown Parser
+│   ├── index.html                        # Base HTML shell with SEO OpenGraph tags
+│   ├── parse-novel.js                    # Node.js script otomatis pengurai novel markdown
+│   └── package.json
+├── .github/workflows/deploy.yml          # Automated GitHub Pages Deployment Workflow
+└── vercel.json                           # Vercel Single Page App Rewrite Configuration
+```
+
+- **Core Framework**: Vite 5 + Vanilla JavaScript (ES2022)
+- **Styling Architecture**: Vanilla CSS Custom Properties (Design Tokens System)
+- **Markdown Processing**: Marked.js + Custom Altrea Typography Parser (*Drop Cap, Pull Quotes, Ornamental Dividers*)
+- **State & Storage**: Browser `localStorage` Wrapper
+- **Deployment**: Vercel & GitHub Actions (GitHub Pages)
+
+---
+
+## 🚀 Panduan Pengembangan
+
+### 1. Jalankan di Lokal
+
+```bash
+# Clone repository
+git clone https://github.com/Ajizzhx/Altrea.git
+cd Altrea/web-novel
+
+# Install dependencies
+npm install
+
+# Jalankan dev server
+npm run dev
+```
+Buka **`http://localhost:5173/`** di browser kamu.
+
+### 2. Build untuk Produksi
+
+```bash
+npm run build
+```
+Hasil build produksi akan tersimpan di folder `web-novel/dist/`.
+
+---
+
+## 🌐 Panduan Deployment
+
+### Deploy ke Vercel
+1. Login ke dashboard [Vercel](https://vercel.com).
+2. Import repository **`Ajizzhx/Altrea`**.
+3. Atur **Root Directory** ke **`web-novel`**.
+4. Klik **Deploy**!
+
+### Deploy ke GitHub Pages
+Repository ini sudah dilengkapi GitHub Actions Workflow di `.github/workflows/deploy.yml`.
+ Cukup aktifkan GitHub Pages di tab **Settings** -> **Pages** -> Source: **`GitHub Actions`**, maka setiap kali kamu melakukan `git push`, website akan otomatis terdeploy ke URL GitHub Pages-mu!
+
+---
+
+<div align="center">
+
+  <p>Dibuat dengan kesempurnaan puitis & rasa hormat untuk dunia <b>Altrea</b>.</p>
+  <p><b>Altrea: Kitab Penciptaan © 2026 ALSTRINE</b></p>
+
+</div>
