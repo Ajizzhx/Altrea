@@ -426,9 +426,9 @@
 
 .race-card__desc {
   font-family: var(--font-body);
-  font-size: var(--text-sm);
-  color: var(--color-twilight);
-  line-height: 1.7;
+  font-size: 1rem;
+  color: var(--color-daylight);
+  line-height: 1.8;
   margin-bottom: var(--space-3);
 }
 
@@ -483,9 +483,9 @@
 
 .location-card__desc {
   font-family: var(--font-body);
-  font-size: var(--text-sm);
-  color: var(--color-twilight);
-  line-height: 1.7;
+  font-size: 1rem;
+  color: var(--color-daylight);
+  line-height: 1.8;
 }
 
 /* Napas grid */
@@ -535,9 +535,9 @@
 
 .napas-card__desc {
   font-family: var(--font-body);
-  font-size: var(--text-md);
-  color: var(--color-starlight);
-  line-height: 1.8;
+  font-size: 1.05rem;
+  color: var(--color-daylight);
+  line-height: 1.85;
   font-style: italic;
 }
 
@@ -642,9 +642,9 @@
 
 .arc-card__meaning {
   font-family: var(--font-body);
-  font-size: var(--text-sm);
-  color: var(--color-twilight);
-  line-height: 1.6;
+  font-size: 1rem;
+  color: var(--color-daylight);
+  line-height: 1.75;
   margin-bottom: var(--space-3);
 }
 

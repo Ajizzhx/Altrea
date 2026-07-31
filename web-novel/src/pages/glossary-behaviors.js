@@ -60,6 +60,6 @@ export function initGlossary() {
     });
   });
 
-  // Initialize with any pre-filled search
-  if (searchQuery) filterCards();
+  // Execute initial filter if search query is prefilled from URL
+  filterCards();
 }

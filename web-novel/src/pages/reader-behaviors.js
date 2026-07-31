@@ -82,17 +82,6 @@ function initScrollToTop() {
   btn?.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
-
-  // Show/hide controls on scroll
-  const controls = document.getElementById('reader-controls');
-  let lastY = 0;
-  window.addEventListener('scroll', () => {
-    const y = window.scrollY;
-    if (controls) {
-      controls.classList.toggle('is-visible', y > 300);
-    }
-    lastY = y;
-  }, { passive: true });
 }
 
 function showToast(message) {
