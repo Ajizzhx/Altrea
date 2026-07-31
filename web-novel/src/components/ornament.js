@@ -11,28 +11,28 @@ export const ornaments = {
   archFrame(opts = {}) {
     const {
       width = 320, height = 480,
-      color = '#c9a84c', opacity = 0.8,
+      color = '#c9a84c', opacity = 1,
       animated = false
     } = opts;
     const anim = animated ? `<animateTransform attributeName="transform" type="scale" values="1;1.005;1" dur="4s" repeatCount="indefinite"/>` : '';
     return `<svg viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" 
       class="ornament-arch-frame" aria-hidden="true" style="width:${width}px;max-width:100%">
       <!-- Outer frame -->
-      <path d="M20,${height-20} L20,100 Q20,20 ${width/2},20 Q${width-20},20 ${width-20},100 L${width-20},${height-20} Z"
-        stroke="${color}" stroke-width="1.5" stroke-opacity="${opacity}" fill="none"/>
+      <path d="M16,${height-16} L16,90 Q16,16 ${width/2},16 Q${width-16},16 ${width-16},90 L${width-16},${height-16} Z"
+        stroke="${color}" stroke-width="2.5" stroke-opacity="${opacity}" fill="none"/>
       <!-- Inner frame -->
-      <path d="M36,${height-36} L36,108 Q36,36 ${width/2},36 Q${width-36},36 ${width-36},108 L${width-36},${height-36} Z"
-        stroke="${color}" stroke-width="0.8" stroke-opacity="${opacity * 0.5}" fill="none"/>
+      <path d="M28,${height-28} L28,96 Q28,28 ${width/2},28 Q${width-28},28 ${width-28},96 L${width-28},${height-28} Z"
+        stroke="${color}" stroke-width="1.2" stroke-opacity="${opacity * 0.75}" fill="none"/>
       <!-- Corner accents TL -->
-      <path d="M20,${height-20} L20,${height-50} M20,${height-20} L50,${height-20}" stroke="${color}" stroke-width="2" stroke-opacity="${opacity}"/>
+      <path d="M16,${height-16} L16,${height-40} M16,${height-16} L40,${height-16}" stroke="${color}" stroke-width="3" stroke-opacity="${opacity}"/>
       <!-- Corner accents TR -->
-      <path d="M${width-20},${height-20} L${width-20},${height-50} M${width-20},${height-20} L${width-50},${height-20}" stroke="${color}" stroke-width="2" stroke-opacity="${opacity}"/>
+      <path d="M${width-16},${height-16} L${width-16},${height-40} M${width-16},${height-16} L${width-40},${height-16}" stroke="${color}" stroke-width="3" stroke-opacity="${opacity}"/>
       <!-- Bottom center ornament -->
-      <polygon points="${width/2},${height-8} ${width/2-6},${height-20} ${width/2+6},${height-20}" 
-        fill="${color}" fill-opacity="${opacity * 0.7}"/>
+      <polygon points="${width/2},${height-6} ${width/2-6},${height-18} ${width/2+6},${height-18}" 
+        fill="${color}" fill-opacity="${opacity}"/>
       <!-- Top peak -->
-      <circle cx="${width/2}" cy="18" r="4" fill="none" stroke="${color}" stroke-width="1.5" stroke-opacity="${opacity}"/>
-      <circle cx="${width/2}" cy="18" r="1.5" fill="${color}" fill-opacity="${opacity}"/>
+      <circle cx="${width/2}" cy="14" r="4.5" fill="none" stroke="${color}" stroke-width="2" stroke-opacity="${opacity}"/>
+      <circle cx="${width/2}" cy="14" r="2" fill="${color}" fill-opacity="${opacity}"/>
       ${anim}
     </svg>`;
   },
