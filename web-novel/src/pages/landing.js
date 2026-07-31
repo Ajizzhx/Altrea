@@ -43,18 +43,18 @@ export function renderLanding() {
       ${ornaments.archFrame({ width: 340, height: 500, animated: true })}
     </div>
     <div class="hero__text">
-      <p class="hero__eyebrow">— Karya ALSTRINE —</p>
-      <h1 class="hero__title" id="hero-title">
+      <p class="hero__eyebrow reveal">— Karya ALSTRINE —</p>
+      <h1 class="hero__title reveal reveal-delay-1" id="hero-title">
         <span class="hero__title-main">ALTREA</span>
         <span class="hero__title-sub">Kitab Penciptaan</span>
       </h1>
-      <div class="hero__divider" aria-hidden="true">
+      <div class="hero__divider reveal reveal-delay-2" aria-hidden="true">
         ${ornaments.separator({ width: 280 })}
       </div>
-      <p class="hero__tagline">
+      <p class="hero__tagline reveal reveal-delay-3">
         <em>"Pada mulanya, Altrea bukan kegelapan.<br>Kegelapan setidaknya memiliki kehadiran."</em>
       </p>
-      <div class="hero__cta">
+      <div class="hero__cta reveal reveal-delay-4">
         <a href="#/read/1" class="btn btn--primary hero__btn-primary">
           ${hasStarted ? `
           <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path d="M3 2l8 5-8 5V2z"/></svg>
