@@ -1,0 +1,337 @@
+{
+  "entries": [
+    {
+      "id": "resonansi-pertama",
+      "name": "Resonansi Pertama",
+      "category": "konsep",
+      "firstChapter": 1,
+      "altreaName": "Aeval-Orn",
+      "description": "Getaran tunggal yang entah dari mana asalnya — asal mula segalanya. Bukan makhluk, bukan tuhan, bukan cahaya. Dari rambatannya lahirlah Ruang dan Waktu.",
+      "relatedEntries": ["empat-napas-dunia", "kemungkinan"]
+    },
+    {
+      "id": "kemungkinan",
+      "name": "Kemungkinan",
+      "category": "konsep",
+      "firstChapter": 1,
+      "altreaName": "Vaelith",
+      "description": "Sesuatu yang lahir dari gema paling akhir Resonansi Pertama. Menempel di celah antara Ruang dan Waktu, menunggu tanpa membutuhkan pengertian tentang menunggu.",
+      "relatedEntries": ["resonansi-pertama", "resonansi-celah"]
+    },
+    {
+      "id": "empat-napas-dunia",
+      "name": "Empat Napas Dunia",
+      "category": "konsep",
+      "firstChapter": 2,
+      "altreaName": "Vael-Ignar-Solmae-Duraen",
+      "description": "Empat getaran turunan dari Resonansi Pertama. Kesadaran purba yang belum tahu bahwa dirinya sadar. Dari pergumulan mereka lahirlah dunia Altrea.",
+      "relatedEntries": ["ignar", "vael", "solmae", "duraen"]
+    },
+    {
+      "id": "ignar",
+      "name": "Ignar",
+      "category": "napas",
+      "firstChapter": 2,
+      "altreaName": "Ignar",
+      "description": "Napas yang panas, yang mendorong, yang membakar. Keinginan untuk ada, dorongan untuk bergerak maju tanpa menoleh. Dari Ignar lahirlah api, ambisi, cinta yang membara, dan kehancuran yang indah.",
+      "relatedEntries": ["vraen", "empat-napas-dunia"]
+    },
+    {
+      "id": "vael",
+      "name": "Vael",
+      "category": "napas",
+      "firstChapter": 2,
+      "altreaName": "Vael",
+      "description": "Napas yang dingin, yang menarik, yang menyimpan. Keinginan untuk bertahan, untuk mengingat, untuk tidak hilang dari dunia. Dari Vael lahirlah air, memori, kesedihan yang lembut, dan rindu yang tak bertepi.",
+      "relatedEntries": ["thael", "samudra-thessarne", "empat-napas-dunia"]
+    },
+    {
+      "id": "solmae",
+      "name": "Solmae",
+      "category": "napas",
+      "firstChapter": 2,
+      "altreaName": "Solmae",
+      "description": "Napas yang luas, yang berputar, yang tak bisa digenggam. Kebebasan sejati, ketidakpastian yang menjadi dasar segala kemungkinan. Dari Solmae lahirlah angin, harapan, keberuntungan, dan rahasia.",
+      "relatedEntries": ["hutan-isyael", "empat-napas-dunia"]
+    },
+    {
+      "id": "duraen",
+      "name": "Duraen",
+      "category": "napas",
+      "firstChapter": 2,
+      "altreaName": "Duraen",
+      "description": "Napas yang berat, yang diam, yang menopang. Kesabaran yang abadi, fondasi dari segalanya. Dari Duraen lahirlah tanah, kematian yang tenang, penerimaan, dan cinta yang tidak perlu diucapkan.",
+      "relatedEntries": ["auren", "dataran-aevorn", "empat-napas-dunia"]
+    },
+    {
+      "id": "danau-veirn",
+      "name": "Danau Veirn",
+      "category": "lokasi",
+      "firstChapter": 3,
+      "altreaName": "Veirn",
+      "description": "Danau di jantung Altrea yang airnya tidak memantulkan langit, melainkan apa yang paling dalam tersimpan di hati siapa pun yang memandangnya. Bukan danau yang ramah — ia memberikan apa yang paling kamu butuhkan untuk dilihat.",
+      "relatedEntries": ["dataran-aevorn", "caedmor", "eiran"]
+    },
+    {
+      "id": "dataran-aevorn",
+      "name": "Dataran Aevorn",
+      "category": "lokasi",
+      "firstChapter": 3,
+      "altreaName": "Aevorn",
+      "description": "Padang yang luas dengan rumput berwarna tembaga, berkilau seperti rambut seseorang yang berdiri di bawah matahari senja. Tanah yang menyimpan rasa, bukan hanya peristiwa. Di sinilah peradaban pertama Altrea bertumbuh.",
+      "relatedEntries": ["danau-veirn", "vaerundal", "aeruun"]
+    },
+    {
+      "id": "pegunungan-kaelith",
+      "name": "Pegunungan Kaelith",
+      "category": "lokasi",
+      "firstChapter": 3,
+      "altreaName": "Kaelith",
+      "description": "Puncak-puncak yang selalu bersalju, seolah menolak untuk disentuh matahari sepenuhnya. Di celah-celahnya, angin bertiup dengan suara yang hampir menyerupai kata-kata — di ketinggian tertentu, seperti nama yang seharusnya dikenal.",
+      "relatedEntries": ["thessivae"]
+    },
+    {
+      "id": "samudra-thessarne",
+      "name": "Samudra Thessarne",
+      "category": "lokasi",
+      "firstChapter": 3,
+      "altreaName": "Thessarne",
+      "description": "Lautan di selatan Altrea yang warnanya berubah mengikuti suasana hati penduduk pantai. Pernah berwarna hitam pekat tujuh hari ketika kota Mourne dibakar, dan berwarna merah muda lembut tiga hari saat dua ras pertama kali memilih damai.",
+      "relatedEntries": ["thael", "aeris", "vael"]
+    },
+    {
+      "id": "hutan-isyael",
+      "name": "Hutan Isyael",
+      "category": "lokasi",
+      "firstChapter": 3,
+      "altreaName": "Isyael",
+      "description": "Hutan di timur tempat matahari pertama terbit. Pohon-pohonnya tumbuh dari udara, akarnya menggantung seperti tirai, daunnya bercahaya biru kehijauan di malam hari. Di dalamnya, waktu berjalan berbeda. Seseorang yang masuk dengan pertanyaan bisa keluar dengan pertanyaan yang berbeda.",
+      "relatedEntries": ["sylvaren", "eiran"]
+    },
+    {
+      "id": "vaerundal",
+      "name": "Vaerundal",
+      "category": "lokasi",
+      "firstChapter": 12,
+      "altreaName": "Vaerundal",
+      "description": "Kota pertama Altrea. Namanya berasal dari kata gabungan bahasa Auren dan Vraen: 'tempat di mana kita setuju untuk berhenti berjalan.' Dibangun selama 23 tahun, fondasinya dalam dan massif seperti Auren, arsitekturnya meliuk seperti nyala api Vraen. Pusatnya: Aula Veirn.",
+      "relatedEntries": ["maerath", "oryn", "eiran", "aula-veirn", "aeruun"]
+    },
+    {
+      "id": "aula-veirn",
+      "name": "Aula Veirn",
+      "category": "lokasi",
+      "firstChapter": 12,
+      "altreaName": "Aula Veirn",
+      "description": "Ruangan berbentuk lingkaran di pusat Vaerundal dengan lantai yang memantulkan niat, bukan wajah. Siapa pun yang masuk untuk bernegosiasi akan melihat versi dirinya yang lebih baik dari bawah kakinya — sangat tidak nyaman untuk berbohong.",
+      "relatedEntries": ["vaerundal"]
+    },
+    {
+      "id": "auren",
+      "name": "Auren",
+      "category": "ras",
+      "firstChapter": 4,
+      "altreaName": "Auren",
+      "description": "Ras pertama Altrea, lahir dari tekanan telapak tangan Duraen. Tubuh teguh dan padat, kulit warna tanah liat kemerahan, mata dua warna berbeda yang memancarkan cahaya redup di malam hari. Lambat berbicara namun dalam berpikir. Hidup hingga 500 musim, lalu kulitnya perlahan mengeras menjadi batu — bukan penyakit, melainkan kembali kepada Duraen. Mewariskan kebijaksanaan melalui tulang.",
+      "relatedEntries": ["duraen", "caedmor", "karun", "maerath"]
+    },
+    {
+      "id": "sylvaren",
+      "name": "Sylvaren",
+      "category": "ras",
+      "firstChapter": 5,
+      "altreaName": "Sylvaren",
+      "description": "Ras yang lahir dari celah antara empat napas — tidak dimiliki oleh napas mana pun. Muncul dari mimpi Sylvaren pertama di tepi Hutan Isyael. Mata cermin sempurna yang memantulkan kebenaran terdalam. Memiliki Resonansi Celah: kemampuan merasakan jeda antara hal-hal. Tidak menyebutnya sihir — itu diam yang dipelajari sangat serius.",
+      "relatedEntries": ["eiran", "voss", "thessivae", "resonansi-celah"]
+    },
+    {
+      "id": "vraen",
+      "name": "Vraen",
+      "category": "ras",
+      "firstChapter": 8,
+      "altreaName": "Vraen",
+      "description": "Ras ketiga yang lahir dari turunnya Ignar. Lahir 217 sekaligus dalam satu ledakan cahaya oranye. Kulit antara abu tua dan oranye membara — di malam hari, cahaya oranye merembes dari antara sendi-sendi. Tidak bisa berdiam diri tanpa sakit — kreativitas adalah fungsi biologis seperti bernapas.",
+      "relatedEntries": ["ignar", "oryn", "lissel", "sorel"]
+    },
+    {
+      "id": "vauren",
+      "name": "Vauren",
+      "category": "ras",
+      "firstChapter": 24,
+      "altreaName": "Vauren",
+      "description": "Ras keempat yang tidak direncanakan oleh siapa pun — lahir dari kebiasaan hidup berdampingan antara Auren dan Vraen. Memiliki kemampuan keduanya tanpa terikat keterbatasan keduanya: merasakan kemungkinan tanah (bukan hanya masa lalu), dan menciptakan dengan kesengajaan (bukan hanya dorongan).",
+      "relatedEntries": ["auren", "vraen", "sael"]
+    },
+    {
+      "id": "thael",
+      "name": "Thael",
+      "category": "ras",
+      "firstChapter": 26,
+      "altreaName": "Thael",
+      "description": "Ras yang muncul dari Samudra Thessarne pada tahun 820 Vaerundal. Kulit biru keabuan, rambut tidak basah meski dari air, mata putih seluruhnya tanpa iris namun tidak kosong — terlalu penuh. Berpikir dalam arus, bukan lapisan. Responsif terhadap sekitar tanpa kehilangan esensi dirinya. Hidup di permukaan antara hal-hal.",
+      "relatedEntries": ["vael", "aeris", "samudra-thessarne", "thaessa"]
+    },
+    {
+      "id": "aeruun",
+      "name": "Aeruun",
+      "category": "ras",
+      "firstChapter": 16,
+      "altreaName": "Aeruun",
+      "description": "Yang Tidur. Bukan ras, bukan napas — sesuatu yang lebih tua dari semua kategori. Terbentuk dari akumulasi ribuan tahun perasaan yang tenggelam ke dalam tanah Aevorn. Tidak jahat, tidak baik — ia adalah ingatan terdalam Altrea. Merasakan kehangatan makhluk yang hidup di atasnya. Menyimpan semua yang dilupakan.",
+      "relatedEntries": ["dataran-aevorn", "malam-batu-berbicara", "voss", "karun"]
+    },
+    {
+      "id": "eiran",
+      "name": "Eiran",
+      "category": "karakter",
+      "firstChapter": 7,
+      "altreaName": "Eiran",
+      "description": "Sylvaren pertama yang diberi nama. Dinamai oleh Caedmor di tepi Veirn — 'yang ditemukan di tepi air ketika kita tidak mencari siapa pun.' Tubuh seperti bahan yang belum diputuskan, rambut hitam dengan ujung yang larut ke udara. Mata cermin yang memantulkan versi dirimu yang paling jujur. Selalu hadir di momen-momen penting karena Sylvaren gravitasi ke celah.",
+      "relatedEntries": ["sylvaren", "caedmor", "voss", "danau-veirn"]
+    },
+    {
+      "id": "voss",
+      "name": "Voss",
+      "category": "karakter",
+      "firstChapter": 15,
+      "altreaName": "Voss",
+      "description": "Sylvaren yang berbeda dari kebanyakan jenisnya. Bergerak dengan kesengajaan yang hampir seperti provokasi. Matanya memantulkan versi dirimu yang paling ingin kamu sembunyikan dari dirimu sendiri. Yang pertama menemui Aeruun di lapisan ketiga bumi. Yang mengucapkan 'aman' dan membuat Naevh turun dari langit.",
+      "relatedEntries": ["sylvaren", "aeruun", "eiran", "karun", "naevh"]
+    },
+    {
+      "id": "caedmor",
+      "name": "Caedmor",
+      "category": "karakter",
+      "firstChapter": 7,
+      "altreaName": "Caedmor",
+      "description": "Auren tua yang memberikan nama kepada Eiran di tepi Veirn. Berusia 312 tahun saat itu. Datang ke Veirn untuk melihat pantulan terakhirnya sebelum ia sepenuhnya kembali kepada Duraen. Menjadi fondasi — tulangnya digiling dan dicampur ke fondasi rumah. Mewariskan batu biru kehijauan kepada Karun.",
+      "relatedEntries": ["auren", "eiran", "karun"]
+    },
+    {
+      "id": "karun",
+      "name": "Karun",
+      "category": "karakter",
+      "firstChapter": 16,
+      "altreaName": "Karun",
+      "description": "Murid Caedmor yang paling setia. Mewarisi batu biru kehijauan dari sang guru — batu yang hangat ketika kebenaran ada di dekatnya. Ikut turun bersama Voss menemui Aeruun. Menyaksikan Naevh tiba sebagai momen yang ia tunggu-tunggu tanpa sadar.",
+      "relatedEntries": ["auren", "caedmor", "voss", "aeruun", "naevh"]
+    },
+    {
+      "id": "maerath",
+      "name": "Maerath",
+      "category": "karakter",
+      "firstChapter": 12,
+      "altreaName": "Maerath",
+      "description": "Kepala suku Auren yang berusia 400 tahun lebih. Tubuhnya mulai mengeras di bahu dan pergelangan saat membangun Vaerundal. Berbicara lambat dan mengukur setiap kata seperti pedagang mengukur emas. Meninggal dua belas hari setelah Pertemuan Besar Pertama di tepi Veirn — seluruh tubuhnya menjadi batu dengan wajah yang lapang.",
+      "relatedEntries": ["auren", "vaerundal", "oryn"]
+    },
+    {
+      "id": "oryn",
+      "name": "Oryn",
+      "category": "karakter",
+      "firstChapter": 12,
+      "altreaName": "Oryn",
+      "description": "Kepala suku Vraen saat pembangunan Vaerundal. Bahkan ketika duduk terlihat seperti sedang bergerak. Berbicara terlalu cepat dan sering menyelesaikan kalimat orang lain dengan versi yang lebih dramatis. Meninggal dua belas tahun sebelum Pertemuan Besar Pertama.",
+      "relatedEntries": ["vraen", "vaerundal", "maerath", "lissel"]
+    },
+    {
+      "id": "lissel",
+      "name": "Lissel",
+      "category": "karakter",
+      "firstChapter": 13,
+      "altreaName": "Lissel",
+      "description": "Vraen muda yang meninggal karena terlalu banyak menciptakan terlalu cepat — tubuhnya kehabisan bahan bakar. Kematiannya menjadi titik lahirnya ritual kematian Vraen: abu diterbangkan di atas kota sehingga setiap bangunan yang pernah dilihatnya membawa sedikit dari dirinya.",
+      "relatedEntries": ["vraen", "sorel", "oryn"]
+    },
+    {
+      "id": "sorel",
+      "name": "Sorel",
+      "category": "karakter",
+      "firstChapter": 9,
+      "altreaName": "Sorel",
+      "description": "Vraen muda yang terus menggambar pola-pola kecil di tanah bahkan ketika duduk berdiam. Sahabat Lissel. Hadir di tepi Veirn bersama Eiran dan Caedmor. Pikirannya bekerja lebih keras dari yang seharusnya, terutama ketika tidak bisa tidur.",
+      "relatedEntries": ["vraen", "lissel", "eiran", "caedmor"]
+    },
+    {
+      "id": "sael",
+      "name": "Sael",
+      "category": "karakter",
+      "firstChapter": 24,
+      "altreaName": "Sael",
+      "description": "Vauren pertama yang dikenali. Ibu Auren, ayah Vraen. Kulit yang di bawah cahaya berbeda terlihat seperti dua hal yang berbeda. Bisa merasakan kemungkinan tanah, dan menciptakan dengan kesengajaan. Kata Oryn: 'Anak ini bukan setengah dari kita masing-masing. Ia adalah versi dari apa yang kita bisa menjadi jika kita berhenti takut satu sama lain.'",
+      "relatedEntries": ["vauren", "vaerith", "voss"]
+    },
+    {
+      "id": "aeris",
+      "name": "Aeris",
+      "category": "karakter",
+      "firstChapter": 26,
+      "altreaName": "Aeris",
+      "description": "Thael pertama yang mendarat di daratan. Mengamati pantai Aevorn selama enam musim sebelum akhirnya naik ke perahu Bruven. Kulit biru keabuan, mata putih tanpa iris yang terlalu penuh untuk disebut kosong. Yang pertama melihat Naevh turun dari langit.",
+      "relatedEntries": ["thael", "thaessa", "naevh"]
+    },
+    {
+      "id": "naevh",
+      "name": "Naevh",
+      "category": "karakter",
+      "firstChapter": 30,
+      "altreaName": "Naevh",
+      "description": "Yang turun dari langit. Entitas kelima. Nama yang dipilih sendiri dari bahasa yang lebih tua dari semua bahasa — sensasi berdiri di ketinggian dan melihat ke bawah tanpa merasa takut, melainkan merasa luas. Matanya adalah jendela ke langit malam, bintang-bintang yang bergerak dan berkedip seperti napas.",
+      "relatedEntries": ["voss", "karun", "aeris"]
+    },
+    {
+      "id": "thessivae",
+      "name": "Thessivae",
+      "category": "karakter",
+      "firstChapter": 11,
+      "altreaName": "Thessivae",
+      "description": "Sylvaren 'pelukis tanpa kanvas' yang menghabiskan hidupnya di gua kaki Kaelith, menggores simbol-simbol ke dinding batu. Yang pertama merasakan denyut Aeruun. Simbol terakhirnya berbentuk seperti lingkaran yang tidak tertutup — mulut yang sedang mengambil napas untuk berbicara.",
+      "relatedEntries": ["sylvaren", "aeruun", "pegunungan-kaelith"]
+    },
+    {
+      "id": "resonansi-celah",
+      "name": "Resonansi Celah",
+      "category": "konsep",
+      "firstChapter": 6,
+      "altreaName": "Sylvaren-Orn",
+      "description": "Kemampuan bawaan Sylvaren untuk merasakan, menyentuh, dan kadang memanipulasi jeda di antara hal-hal. Jeda antara dua nada menjadi musik yang dimainkan. Jeda antara dua pikiran menjadi ruang yang dimasuki. Jeda antara hidup dan mati adalah pintu yang bisa dibuka dari kedua sisinya. Bukan sihir — diam yang dipelajari sangat serius. Di antara sesama Sylvaren: 'mendengarkan apa yang tidak berani bersuara.'",
+      "relatedEntries": ["sylvaren", "celah", "eiran", "voss"]
+    },
+    {
+      "id": "vaerith",
+      "name": "Vaerith",
+      "category": "bahasa",
+      "firstChapter": 25,
+      "altreaName": "Vaerith",
+      "description": "Kata Vauren pertama yang tidak ada padanannya dalam bahasa mana pun. Perasaan berada di antara dua tempat sekaligus dan merasa utuh di keduanya — bukan terpecah. Bahasa Auren yang paling dekat: 'dua akar dari satu pohon.' Bahasa Vraen yang paling dekat: 'api yang memiliki dua warna namun bukan dua api.' Keduanya salah. Keduanya benar.",
+      "relatedEntries": ["raevin", "vauren", "sael"]
+    },
+    {
+      "id": "raevin",
+      "name": "Raevin",
+      "category": "bahasa",
+      "firstChapter": 25,
+      "altreaName": "Raevin",
+      "description": "Kebalikan dari Vaerith — berada di antara dua tempat dan merasa tidak utuh di keduanya. Jarang digunakan oleh Vauren karena memberi nama pada rasa sakit membuatnya terlalu nyata untuk diabaikan. Namun juga terlalu nyata untuk pura-pura tidak ada.",
+      "relatedEntries": ["vaerith", "vauren"]
+    },
+    {
+      "id": "thaessa",
+      "name": "Thaessa",
+      "category": "konsep",
+      "firstChapter": 26,
+      "altreaName": "Thaessa",
+      "description": "Ingatan Thael tentang keadaan sebelum ada yang perlu direspons — ketika samudra pertama ada dan belum ada pantai yang memberinya bentuk. Keadaan 'hanya ada' tanpa arah, tujuan, atau nama. Merindukan adalah kata yang terlalu aktif; Thael membawanya selalu di bawah semua yang lain sebagai pengingat bahwa mereka pernah cukup hanya dengan menjadi.",
+      "relatedEntries": ["thael", "aeris"]
+    },
+    {
+      "id": "malam-batu-berbicara",
+      "name": "Malam Batu Berbicara",
+      "category": "konsep",
+      "firstChapter": 18,
+      "altreaName": "Aeruun-Vael",
+      "description": "Tradisi yang lahir dari perjanjian tidak tertulis dengan Aeruun. Satu malam setiap tahun, penduduk kota duduk di atas tanah, meletakkan telapak tangan di permukaan, dan berbicara pelan tentang apa yang paling ingin mereka lupakan. Karena Aeruun mendengar. Dan Aeruun menyimpan. Tidak ada yang pernah benar-benar hilang di Altrea.",
+      "relatedEntries": ["aeruun", "vaerundal"]
+    }
+  ]
+}

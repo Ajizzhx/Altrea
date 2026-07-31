@@ -1,0 +1,123 @@
+/* ============================================================
+   FOOTER STYLES
+   ============================================================ */
+
+.footer {
+  position: relative;
+  padding: var(--space-16) 0 var(--space-8);
+  text-align: center;
+  overflow: hidden;
+}
+
+.footer__fog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--color-abyss));
+  pointer-events: none;
+}
+
+.footer__mandala {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-6);
+  opacity: 0.6;
+}
+
+.footer__separator {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-6);
+}
+
+.footer__quote {
+  font-family: var(--font-accent);
+  font-size: var(--text-md);
+  color: var(--color-twilight);
+  font-style: italic;
+  max-width: 480px;
+  margin: 0 auto var(--space-6);
+  line-height: 1.8;
+}
+
+.footer__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+  transition: transform var(--transition-fast);
+}
+
+.footer__link:hover { transform: translateY(-2px); }
+
+.footer__link-altrea {
+  font-family: var(--font-accent);
+  font-size: 0.625rem;
+  color: var(--color-gold);
+  letter-spacing: 0.1em;
+}
+
+.footer__link span:last-child {
+  font-family: var(--font-heading);
+  font-size: var(--text-sm);
+  letter-spacing: 0.1em;
+  color: var(--color-starlight);
+}
+
+.footer__dot {
+  color: var(--color-mist);
+}
+
+.footer__credit {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-twilight);
+  margin-bottom: var(--space-2);
+}
+
+.footer__credit strong {
+  color: var(--color-gold);
+  font-family: var(--font-heading);
+  letter-spacing: 0.1em;
+}
+
+.footer__separator-inline {
+  margin: 0 var(--space-2);
+}
+
+.footer__altrea-credit {
+  font-family: var(--font-accent);
+  font-style: italic;
+}
+
+.footer__sub {
+  font-family: var(--font-accent);
+  font-size: var(--text-xs);
+  color: var(--color-shadow);
+  font-style: italic;
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

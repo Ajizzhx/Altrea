@@ -1,0 +1,76 @@
+{
+  "arcs": [
+    {
+      "id": 1,
+      "slug": "arc-kelahiran",
+      "title": "Kelahiran Dunia",
+      "altreaTitle": "Resonansi Pertama",
+      "altreaMeaning": "Getaran pertama yang melahirkan segalanya",
+      "chapters": [1, 2, 3, 4],
+      "color": "#8b7355",
+      "colorName": "duraen",
+      "description": "Sebelum ada nama, sebelum ada waktu. Altrea lahir dari getaran tunggal yang entah dari mana asalnya.",
+      "thumbnail": "/images/arc-1.jpg"
+    },
+    {
+      "id": 2,
+      "slug": "arc-celah",
+      "title": "Anak-Anak Celah",
+      "altreaTitle": "Sylvaren",
+      "altreaMeaning": "Yang lahir dari jeda antara hal-hal",
+      "chapters": [5, 6, 7, 8, 9],
+      "color": "#60519b",
+      "colorName": "resonance",
+      "description": "Dari celah antara empat kesadaran purba, lahirlah makhluk-makhluk yang tidak dimiliki oleh napas mana pun.",
+      "thumbnail": "/images/arc-2.jpg"
+    },
+    {
+      "id": 3,
+      "slug": "arc-yang-tidur",
+      "title": "Yang Tidur",
+      "altreaTitle": "Aeruun",
+      "altreaMeaning": "Yang ada sejak sebelum ada kategori",
+      "chapters": [10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "color": "#3d3168",
+      "colorName": "resonance-dim",
+      "description": "Jauh di bawah Aevorn, sesuatu yang terbentuk dari semua perasaan yang pernah dilupakan mulai bermimpi.",
+      "thumbnail": "/images/arc-3.jpg"
+    },
+    {
+      "id": 4,
+      "slug": "arc-perang",
+      "title": "Musim Perang",
+      "altreaTitle": "Ignar Vaelith",
+      "altreaMeaning": "Api yang tidak tahu cara padam",
+      "chapters": [19, 20, 21, 22, 23],
+      "color": "#c2603a",
+      "colorName": "ignar",
+      "description": "Perang pertama Altrea tidak dimulai dengan pengkhianatan, melainkan dengan kesalahpahaman yang tidak ada yang mau mengakui.",
+      "thumbnail": "/images/arc-4.jpg"
+    },
+    {
+      "id": 5,
+      "slug": "arc-kelahiran-baru",
+      "title": "Kelahiran Baru",
+      "altreaTitle": "Vaerith",
+      "altreaMeaning": "Berada di dua tempat sekaligus dan utuh di keduanya",
+      "chapters": [24, 25, 26, 27],
+      "color": "#3a7ab5",
+      "colorName": "vael",
+      "description": "Dari pertemuan yang panjang dan menyakitkan, lahirlah sesuatu yang tidak direncanakan oleh siapa pun.",
+      "thumbnail": "/images/arc-5.jpg"
+    },
+    {
+      "id": 6,
+      "slug": "arc-yang-kelima",
+      "title": "Yang Kelima",
+      "altreaTitle": "Naevh",
+      "altreaMeaning": "Berdiri di ketinggian dan melihat ke bawah tanpa takut",
+      "chapters": [28, 29, 30, 31, 32],
+      "color": "#bfc0d1",
+      "colorName": "starlight",
+      "description": "Langit Altrea tidak pernah diklaim oleh napas mana pun. Tidak sampai malam itu.",
+      "thumbnail": "/images/arc-6.jpg"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+/* ============================================================
+   ALTREA WEB NOVEL — DESIGN TOKENS
+   ============================================================ */
+
+:root {
+  /* ── Core Dark Palette ───────────────────────────────────── */
+  --color-void:           #0a0b13;
+  --color-abyss:          #1e202c;
+  --color-depth:          #272839;
+  --color-surface:        #31323e;
+  --color-mist:           #3d3e50;
+  --color-fog:            #4a4b60;
+
+  /* ── Purple (Resonansi Celah) ───────────────────────────── */
+  --color-resonance:      #60519b;
+  --color-resonance-dim:  #3d3168;
+  --color-resonance-glow: #7b6bbf;
+  --color-resonance-pale: #a090d8;
+  --color-resonance-faint:rgba(96, 81, 155, 0.15);
+
+  /* ── Text ───────────────────────────────────────────────── */
+  --color-starlight:      #bfc0d1;
+  --color-moonlight:      #e8e9f5;
+  --color-daylight:       #f4f4f8;
+  --color-twilight:       #7a7b8c;
+  --color-shadow:         #4a4b5a;
+
+  /* ── Gold (Ornamen) ─────────────────────────────────────── */
+  --color-gold:           #c9a84c;
+  --color-gold-light:     #e4c97e;
+  --color-gold-pale:      #f0dfa0;
+  --color-gold-dim:       #8b6f2e;
+  --color-gold-dark:      #5c4820;
+  --color-gold-glow:      rgba(201, 168, 76, 0.25);
+  --color-gold-glow-strong: rgba(201, 168, 76, 0.5);
+
+  /* ── Semantic / Napas Colors ────────────────────────────── */
+  --color-ignar:          #c2603a;
+  --color-ignar-dim:      #8b3f22;
+  --color-ignar-glow:     rgba(194, 96, 58, 0.3);
+  --color-vael:           #3a7ab5;
+  --color-vael-dim:       #265280;
+  --color-vael-glow:      rgba(58, 122, 181, 0.3);
+  --color-solmae:         #5a9e6f;
+  --color-solmae-dim:     #3a6b4a;
+  --color-duraen:         #8b7355;
+  --color-duraen-dim:     #5c4c38;
+
+  /* ── Fonts ──────────────────────────────────────────────── */
+  --font-display:  'Cinzel Decorative', serif;
+  --font-heading:  'Cinzel', serif;
+  --font-body:     'Cormorant Garamond', serif;
+  --font-ui:       'Inter', sans-serif;
+  --font-accent:   'IM Fell English', serif;
+
+  /* ── Font Scale ─────────────────────────────────────────── */
+  --text-xs:    0.6875rem;
+  --text-sm:    0.8125rem;
+  --text-base:  1rem;
+  --text-md:    1.125rem;
+  --text-lg:    1.25rem;
+  --text-xl:    1.5rem;
+  --text-2xl:   1.875rem;
+  --text-3xl:   2.25rem;
+  --text-4xl:   3rem;
+  --text-5xl:   3.75rem;
+  --text-hero:  5rem;
+
+  /* ── Reading Font Sizes ─────────────────────────────────── */
+  --reading-sm:   1.0625rem;
+  --reading-md:   1.1875rem;
+  --reading-lg:   1.3125rem;
+  --reading-xl:   1.5rem;
+
+  /* ── Spacing ────────────────────────────────────────────── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+  --space-40: 10rem;
+
+  /* ── Layout ─────────────────────────────────────────────── */
+  --container-max:  1280px;
+  --content-max:    820px;
+  --reader-max:     700px;
+  --navbar-height:  72px;
+
+  /* ── Borders & Radius ───────────────────────────────────── */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --radius-xl:  20px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ────────────────────────────────────────────── */
+  --shadow-sm:    0 2px 8px rgba(0,0,0,0.4);
+  --shadow-md:    0 4px 20px rgba(0,0,0,0.5);
+  --shadow-lg:    0 8px 40px rgba(0,0,0,0.6);
+  --shadow-xl:    0 16px 60px rgba(0,0,0,0.7);
+  --shadow-gold:  0 0 20px var(--color-gold-glow), 0 0 40px var(--color-gold-glow);
+  --shadow-resonance: 0 0 20px rgba(96,81,155,0.3);
+
+  /* ── Transitions ────────────────────────────────────────── */
+  --transition-fast:   150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow:   500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-page:   400ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ── Reading Modes ──────────────────────────────────────── */
+  --reading-bg:     var(--color-abyss);
+  --reading-text:   var(--color-starlight);
+  --reading-accent: var(--color-resonance);
+}
+
+/* Reading Mode Variants */
+[data-reading-mode="void"] {
+  --reading-bg:     var(--color-void);
+  --reading-text:   var(--color-moonlight);
+  --reading-accent: var(--color-resonance-glow);
+}
+[data-reading-mode="purple"] {
+  --reading-bg:     #1a1528;
+  --reading-text:   #d4ceee;
+  --reading-accent: #8b7acf;
+}
+[data-reading-mode="sepia"] {
+  --reading-bg:     #1e1912;
+  --reading-text:   #d4c5a0;
+  --reading-accent: #b8864a;
+}
