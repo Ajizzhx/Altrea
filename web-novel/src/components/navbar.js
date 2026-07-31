@@ -21,19 +21,17 @@ export function renderNavbar(activePage = 'home', chapterNum = null) {
       <span class="navbar__logo-sub">Kitab Penciptaan</span>
     </a>
 
+    <ul class="navbar__links" role="list">
+      <li><a href="#/" class="navbar__link ${activePage==='home'?'is-active':''}" data-altrea="Aevorn">Beranda</a></li>
+      <li><a href="#/chapters" class="navbar__link ${activePage==='chapters'||isReading?'is-active':''}" data-altrea="Kitab Celah">Jilid</a></li>
+      <li><a href="#/glossary" class="navbar__link ${activePage==='glossary'?'is-active':''}" data-altrea="Kitab Nama">Glossarium</a></li>
+    </ul>
+
     ${isReading && chapterNum ? `
     <div class="navbar__reading-info">
       <span class="navbar__chapter-label">Jilid ${chapterNum}</span>
-      <span class="navbar__chapter-sep">·</span>
-      <span class="navbar__chapter-sub">Aevorn-Orn</span>
     </div>
-    ` : `
-    <ul class="navbar__links" role="list">
-      <li><a href="#/" class="navbar__link ${activePage==='home'?'is-active':''}" data-altrea="Aevorn">Beranda</a></li>
-      <li><a href="#/chapters" class="navbar__link ${activePage==='chapters'?'is-active':''}" data-altrea="Kitab Celah">Jilid</a></li>
-      <li><a href="#/glossary" class="navbar__link ${activePage==='glossary'?'is-active':''}" data-altrea="Kitab Nama">Glossarium</a></li>
-    </ul>
-    `}
+    ` : ''}
 
     <div class="navbar__actions">
       ${totalRead > 0 && !isReading ? `

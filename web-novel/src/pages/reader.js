@@ -33,8 +33,14 @@ export async function renderReader(chapterId) {
 
   <!-- Chapter header -->
   <header class="reader-header">
-    <div class="reader-header__ornament" aria-hidden="true">
-      ${ornaments.archFrame({ width: 260, height: 360, color: arc?.color || '#c9a84c' })}
+    <div class="reader-header__arch" aria-hidden="true">
+      <div class="reader-header__arch-img-wrap">
+        <img class="reader-header__arch-img" src="/images/arc-${arc?.id || 1}.jpg" alt="Arc ${arc?.id}: ${arc?.title}" />
+        <div class="reader-header__arch-overlay"></div>
+      </div>
+      <div class="reader-header__arch-frame">
+        ${ornaments.archFrame({ width: 220, height: 300, color: arc?.color || '#c9a84c' })}
+      </div>
     </div>
     <div class="reader-header__content">
       <nav class="reader-breadcrumb" aria-label="Lokasi dalam novel">

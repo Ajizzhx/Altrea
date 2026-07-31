@@ -48,9 +48,49 @@
   pointer-events: none;
 }
 
-.reader-header__ornament {
+.reader-header__arch {
+  position: relative;
+  width: 220px;
+  height: 300px;
   margin-bottom: var(--space-8);
-  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.5));
+}
+
+.reader-header__arch-img-wrap {
+  position: absolute;
+  width: 196px;
+  height: 276px;
+  top: 12px;
+  border-radius: 98px 98px 0 0;
+  overflow: hidden;
+}
+
+.reader-header__arch-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-slow);
+}
+
+.reader-header__arch:hover .reader-header__arch-img {
+  transform: scale(1.08);
+}
+
+.reader-header__arch-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,11,19,0.7) 0%, transparent 60%);
+}
+
+.reader-header__arch-frame {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
 }
 
 .reader-breadcrumb {
@@ -306,21 +346,20 @@
 /* ── Floating Controls ─────────────────────────────────────── */
 .reader-controls {
   position: fixed;
-  bottom: var(--space-6);
+  top: 50%;
   right: var(--space-6);
+  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
-  opacity: 0;
-  transform: translateY(12px);
-  transition: all var(--transition-normal);
-  pointer-events: none;
+  opacity: 1;
+  pointer-events: all;
   z-index: 500;
+  transition: opacity var(--transition-normal);
 }
 
 .reader-controls.is-visible {
   opacity: 1;
-  transform: translateY(0);
   pointer-events: all;
 }
 
