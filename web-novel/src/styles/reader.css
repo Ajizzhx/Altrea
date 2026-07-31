@@ -50,21 +50,21 @@
 
 .reader-header__arch {
   position: relative;
-  width: 220px;
-  height: 300px;
-  margin-bottom: var(--space-8);
+  width: 140px;
+  height: 190px;
+  margin-bottom: var(--space-4);
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 8px 24px rgba(0,0,0,0.5));
 }
 
 .reader-header__arch-img-wrap {
   position: absolute;
-  width: 196px;
-  height: 276px;
-  top: 12px;
-  border-radius: 98px 98px 0 0;
+  width: 124px;
+  height: 174px;
+  top: 8px;
+  border-radius: 62px 62px 0 0;
   overflow: hidden;
 }
 
