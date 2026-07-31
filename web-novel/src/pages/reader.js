@@ -39,7 +39,7 @@ export async function renderReader(chapterId) {
         <div class="reader-header__arch-overlay"></div>
       </div>
       <div class="reader-header__arch-frame">
-        ${ornaments.archFrame({ width: 160, height: 220, color: arc?.color || '#c9a84c', opacity: 1 })}
+        ${ornaments.archFrame({ width: 170, height: 240, color: arc?.color || '#e4c97e' })}
       </div>
     </div>
     <div class="reader-header__content">
