@@ -6,9 +6,9 @@
   ### *Sebuah Web Novel Kosmologi Fantasy Interaktif*
 
   [![Author](https://img.shields.io/badge/Author-ALSTRINE-c9a84c?style=for-the-badge&logo=github)](https://github.com/Ajizzhx)
+  [![Live Website](https://img.shields.io/badge/Website-altrea--pied.vercel.app-000000?style=for-the-badge&logo=vercel)](https://altrea-pied.vercel.app/)
   [![Framework](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
   [![Language](https://img.shields.io/badge/JavaScript-Vanilla%20ES2022-F7DF1E?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  [![Styling](https://img.shields.io/badge/CSS3-Design%20Tokens-1572B6?style=for-the-badge&logo=css3)](https://css-tricks.com/)
   [![Status](https://img.shields.io/badge/Status-Complete%20(32%20Jilid)-00c853?style=for-the-badge)](#)
 
   <p align="center">
@@ -16,7 +16,7 @@
     Altrea pada awalnya adalah ketiadaan yang sempurna — keheningan di antara dua nada yang belum pernah lahir."</i>
   </p>
 
-  [🌐 Live Demo](http://localhost:5173/) • [📚 Daftar Jilid](#-struktur-6-arc-cerita) • [📖 Glossarium Dunia](#-kosmologi--dunia-altrea) • [🚀 Jalankan Lokal](#-panduan-pengembangan)
+  [🌐 Baca Online (Live Demo)](https://altrea-pied.vercel.app/) • [📚 Daftar Jilid](#-struktur-6-arc-cerita) • [📖 Glossarium Dunia](#-kosmologi--dunia-altrea) • [🚀 Penggunaan Lokal](#-panduan-pengembangan)
 
 </div>
 
@@ -26,7 +26,7 @@
 
 **Altrea — Kitab Penciptaan** adalah karya web novel kosmologi fantasy epik ciptaan **ALSTRINE**. Web novel ini menghadirkan pengalaman membaca novel digital kelas atas berbasis web (*Progressive Web Novel App*) dengan visual **Dark Celestial Aesthetic**, animasi pendaran cahaya *stained glass*, sistem ornamen geometrik emas (*Gothic Arch & Islamic Mandala*), serta fitur baca interaktif yang responsif di desktop maupun perangkat seluler.
 
- Seluruh **32 Jilid cerita** dapat dibaca secara utuh dengan berbagai pilihan preferensi mode tampilan dan ukuran font.
+Seluruh **32 Jilid cerita** dapat dibaca secara utuh dengan berbagai pilihan preferensi mode tampilan dan ukuran font.
 
 ---
 
@@ -136,21 +136,16 @@ Altrea/
 │   ├── index.html                        # Base HTML shell with SEO OpenGraph tags
 │   ├── parse-novel.js                    # Node.js script otomatis pengurai novel markdown
 │   └── package.json
-├── .github/workflows/deploy.yml          # Automated GitHub Pages Deployment Workflow
-└── vercel.json                           # Vercel Single Page App Rewrite Configuration
 ```
 
 - **Core Framework**: Vite 5 + Vanilla JavaScript (ES2022)
 - **Styling Architecture**: Vanilla CSS Custom Properties (Design Tokens System)
 - **Markdown Processing**: Marked.js + Custom Altrea Typography Parser (*Drop Cap, Pull Quotes, Ornamental Dividers*)
 - **State & Storage**: Browser `localStorage` Wrapper
-- **Deployment**: Vercel & GitHub Actions (GitHub Pages)
 
 ---
 
-## 🚀 Panduan Pengembangan
-
-### 1. Jalankan di Lokal
+## 🚀 Panduan Pengembangan Lokal
 
 ```bash
 # Clone repository
@@ -163,28 +158,6 @@ npm install
 # Jalankan dev server
 npm run dev
 ```
-Buka **`http://localhost:5173/`** di browser kamu.
-
-### 2. Build untuk Produksi
-
-```bash
-npm run build
-```
-Hasil build produksi akan tersimpan di folder `web-novel/dist/`.
-
----
-
-## 🌐 Panduan Deployment
-
-### Deploy ke Vercel
-1. Login ke dashboard [Vercel](https://vercel.com).
-2. Import repository **`Ajizzhx/Altrea`**.
-3. Atur **Root Directory** ke **`web-novel`**.
-4. Klik **Deploy**!
-
-### Deploy ke GitHub Pages
-Repository ini sudah dilengkapi GitHub Actions Workflow di `.github/workflows/deploy.yml`.
- Cukup aktifkan GitHub Pages di tab **Settings** -> **Pages** -> Source: **`GitHub Actions`**, maka setiap kali kamu melakukan `git push`, website akan otomatis terdeploy ke URL GitHub Pages-mu!
 
 ---
 
