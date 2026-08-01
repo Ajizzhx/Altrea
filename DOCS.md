@@ -57,7 +57,7 @@
 | FR-01.2 | Ornamen SVG animasi (arch frame + mandala berputar) | ✅ Selesai |
 | FR-01.3 | CTA: "Mulai Membaca" + "Lihat Semua Jilid" | ✅ Selesai |
 | FR-01.4 | Sinopsis singkat dunia Altrea (centered, dengan ornamen) | ✅ Selesai |
-| FR-01.5 | Tab kategori interaktif: Ras, Lokasi, Konsep, Napas | ✅ Selesai |
+| FR-01.5 | Tab kategori interaktif: Ras & Makhluk, Lokasi, Empat Napas (3 tab) | ✅ Selesai |
 | FR-01.6 | Preview 6 Arc cerita dengan kartu ilustrasi 2D Concept Art | ✅ Selesai |
 | FR-01.7 | Parallax background dunia (`world-bg.jpg`) | ✅ Selesai |
 | FR-01.8 | Light rays stained glass effect + shooting stars + star particles | ✅ Selesai |
@@ -548,7 +548,7 @@ Semua ornamen di-generate oleh `ornament.js` sebagai inline SVG string, tanpa fi
 **Sections (urut vertikal):**
 1. **Hero** — Full viewport, `hero-bg.jpg` parallax, particle system (stars + light rays + shooting stars), ornamen arch frame, judul "ALTREA" (Cinzel Decorative), subtitle "Kitab Penciptaan", tagline puitis, 2 tombol CTA.
 2. **Sinopsis** — Judul + 3 paragraf ringkasan dunia Altrea. Centered, ornamen separator. Background: `world-bg.jpg` parallax kontinu.
-3. **Dunia Altrea (Tabs)** — 4 tab interaktif (Ras, Lokasi, Konsep, Napas). Setiap tab memuat grid kartu dari `glossary.json` yang difilter per kategori.
+3. **Dunia Altrea (Tabs)** — 3 tab interaktif (Ras & Makhluk, Lokasi, Empat Napas). Setiap tab memuat grid kartu hardcoded di `landing.js` (6 ras, 4 lokasi, 4 napas).
 4. **Arc Preview** — Grid 3×2 kartu dengan ilustrasi Arc 2D Concept Art, ornamen lancip frame, judul Arc + bahasa Altrea + deskripsi singkat.
 5. **Footer**
 

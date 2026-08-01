@@ -81,12 +81,12 @@ Seluruh **32 Jilid cerita** dapat dibaca secara utuh dengan berbagai pilihan pre
 
 | Arc | Judul Utama | Judul Bahasa Altrea | Makna Altrea | Cakupan |
 | :---: | :--- | :--- | :--- | :---: |
-| **Arc I** | Resonansi Pertama | *Aeval-Aevorn* | Kelahiran Dunia | **Jilid 1 – 5** |
-| **Arc II** | Kebangkitan | *Aevorn-Orn* | Tiga Ras Purba | **Jilid 6 – 10** |
-| **Arc III** | Peradaban Pertama | *Vaerundal-Vraedh* | Kota Pertama | **Jilid 11 – 17** |
-| **Arc IV** | Yang Tidur | *Sol-Vaelen* | Penguburan Rasa | **Jilid 18 – 22** |
-| **Arc V** | Perang Nama | *Nael-Thassor* | Konflik Bahasa | **Jilid 23 – 28** |
-| **Arc VI** | Yang Turun dari Langit | *Aeth-Vaelis* | Akhir & Awal | **Jilid 29 – 32** |
+| **Arc I** | Kelahiran Dunia | *Resonansi Pertama* | Getaran pertama yang melahirkan segalanya | **Jilid 1 – 4** |
+| **Arc II** | Anak-Anak Celah | *Sylvaren* | Yang lahir dari jeda antara hal-hal | **Jilid 5 – 9** |
+| **Arc III** | Yang Tidur | *Aeruun* | Yang ada sejak sebelum ada kategori | **Jilid 10 – 18** |
+| **Arc IV** | Musim Perang | *Ignar Vaelith* | Api yang tidak tahu cara padam | **Jilid 19 – 23** |
+| **Arc V** | Kelahiran Baru | *Vaerith* | Berada di dua tempat sekaligus dan utuh di keduanya | **Jilid 24 – 27** |
+| **Arc VI** | Yang Kelima | *Naevh* | Berdiri di ketinggian dan melihat ke bawah tanpa takut | **Jilid 28 – 32** |
 
 ---
 
